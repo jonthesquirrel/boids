@@ -1,1 +1,1 @@
-execute summon minecraft:marker positioned ~ ~ ~ run tag @s add boid
+summon minecraft:block_display ~ ~ ~ {Tags:["boid"],block_state:{Name:"minecraft:glass"}}
