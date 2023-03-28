@@ -8,3 +8,4 @@ execute as @e[tag=boid] at @s facing entity @e[tag=boid,limit=1,distance=0.00000
 # Issues:
 # - Boids don't exclude self if they are in exactly the same position
 # - Boids don't move in a direction (need to pick a leader)
+# - Make a direction vector (using an entity to look at?)
